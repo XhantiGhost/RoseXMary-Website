@@ -111,8 +111,9 @@ body {
 
  /* section 2 */
 
+
 .section-2 .container-fluid {
-    background-image: url();
+    background-image: url('/img/sec2.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -128,7 +129,7 @@ body {
 .section-2 .para {
     width: 80%;
     font-family: monospace;
-    color: #303030;
+    color: #fff;
     margin-bottom: 7%;
 }
 
@@ -137,3 +138,48 @@ body {
     width: 30%;
     padding: 2% 5%;
 }
+
+/* section 3 */
+.section-3 {
+    margin-top: 6%;
+}
+
+.section-3 i{
+    color: #f63;
+}
+
+.section-3 p{
+color: rgba(0, 0, 0, 0.59);
+}
+
+
+/* Section 4 */
+
+.section-4 {
+    margin-top: 8%;
+}
+
+.section-4 
+.row 
+.col-md-7,
+.col-md-5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-4 a {
+    color: #f63;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.section-4 .para-1 {
+    color: #fff;
+    margin-top: 7%;
+    font-size: 16px;
+}
+
+.social i {
+    font-size: 20px;
+}
+
