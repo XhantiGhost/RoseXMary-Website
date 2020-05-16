@@ -1,4 +1,39 @@
 
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'DM Mono', monospace;
+}
+
+.navbar-brand {
+    font-family: 'DM Mono', monospace;
+    font-size: 35px;
+    color: #f63;
+}
+
+.nav-link {
+    font-size: 1rem;
+    margin: 1rem;
+    color: #303030 !important;
+    font-family: 'DM Mono', monospace;
+}
+
+.nav-link:hover{
+    color: #f63 !important;
+}
+
+.active .nav-link {
+    color: #f63;
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 3000ms ease-in;
+}
+
+.menu-right-btn:hover {
+    color: #fff;
+    background-color: #f63;
 }
