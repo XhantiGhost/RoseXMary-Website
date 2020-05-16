@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 
 body {
     padding: 0;
@@ -36,4 +38,102 @@ body {
 .menu-right-btn:hover {
     color: #fff;
     background-color: #f63;
+}
+
+/* Main section */
+
+.site-content {
+    background-image: url('/img/marija-zaric-JgYVtd9OLN8-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, 
+.site-desc {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc {
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn1 {
+    margin-left: 20%;
+    background-color: #3030;
+    color: #fff;
+
+}
+
+.site-btn2 {
+    background-color: #fff;
+}
+
+ .site-btn1,
+ .site-btn2 {
+     margin-top: 5%;
+     margin-bottom: 40%;
+ }
+
+
+ /* Section-1 */
+
+ .section-1 .heading-1 {
+     margin-top: 8%;
+ }
+
+ .section-1 .heading-2 {
+     margin-bottom: 5%;
+     font-size:39px;
+ }
+
+ .section-1 .para-1 {
+     width: 60%;
+     margin-left: 20%;
+     margin-bottom: 5%;
+ }
+
+ .section-1 .card-text,
+ .para-1 {
+     color: rgba(0, 0, 0, 0.59);
+ }
+
+ .section-1 {
+     margin-bottom: 8%;
+ }
+
+ /* section 2 */
+
+.section-2 .container-fluid {
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Dancing Script', cursive;
+    width: 80%;
+    color: #f63;
+}
+
+.section-2 .para {
+    width: 80%;
+    font-family: monospace;
+    color: #303030;
+    margin-bottom: 7%;
+}
+
+.section-2 .btn {
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
 }
